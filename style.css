@@ -1,5 +1,49 @@
-body{
-    background-color: rgb(86, 86, 94);
+.header{
+    background-color: rgb(148, 148, 148);
     text-align: center;
    color: azure;
+   font-size: larger;
+  padding:3%;
+  border: solid black;
 }
+.nav{
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+   color: azure;
+   font-size: larger;
+   padding:3%;
+   border: solid black;
+}
+.footer{
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+   color: azure;
+   font-size: larger;
+   padding:3%;
+   border: solid black;
+}
+
+  th:nth-child(2) {
+    background: rgb(148, 148, 148);
+    width:1200px;
+    height:1000px;
+    color: azure;
+    font-size: larger;
+    border: solid black;
+  }
+  th:nth-child(1) {
+    background: rgb(148, 148, 146);
+    width:200px;
+    height:1000px;
+    color: azure;
+    font-size: larger;
+    border: solid black;
+  }
+  th:nth-child(3) {
+    background: rgb(148, 148, 148);
+    width:200px;
+    color: azure;
+    font-size: larger;
+    height:1000px;
+    border: solid black;
+  }
