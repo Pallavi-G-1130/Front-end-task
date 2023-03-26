@@ -1,0 +1,103 @@
+.nav
+{
+    background-color: rgb(1, 1, 81)!important;
+    width:100%;
+    height:8%;
+    text-emphasis-color: white;
+}
+#subnav {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin:auto;
+    box-sizing: auto;
+  }
+  .nav
+  {
+    background-color: rgb(1, 1, 81)!important;
+    width:100%;
+    height:8%;
+    text-align: center;
+    position: relative;
+   }
+   .subnav
+   {
+    text-align:  center ;
+    margin: auto;
+    color: black;
+    background-color: rgb(255, 251, 254);
+    border:solid red;
+    float:center;
+    box-sizing: auto;
+    width:9%;
+  position: absolute;
+  left:45%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+   }
+.boxes
+{
+  display:flex;
+    justify-content:space-between;
+    text-align: center!important;
+    font-size:large;
+    color: azure;
+}
+.leftbox {
+ color:black;
+  float:left;
+  background:white;
+  text-align: left;
+}
+.middlebox{
+  float:left;
+  color:black;
+  background:white;
+  text-align: center;
+  display: grid;
+
+}
+.rightbox{
+ color:black;
+  float:left;
+  background:white;
+  text-align: left;
+}
+.one,.two,.three{
+    display:flex;
+    height:300px;
+    justify-content:space-between;
+    text-align: left!important;
+    font-size:large;
+    color: rgb(9, 9, 9);
+    border-bottom:solid black;
+    font-family: "Sofia", sans-serif;
+    padding-left: 5px;
+    background-color: rgb(240, 213, 239);
+}
+.content{
+  padding-left: 20px;
+}
+.button1 {
+  padding: 10px 32px;
+  background-color: rgb(253, 5, 5); 
+  color: black; 
+  border: 2px solid #030303;
+  font-size: 20px;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+}
+img {
+    border: 5px solid #2a07f0;
+  }
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 4px;
+    background: black;
+    margin-bottom: 50px;
+}

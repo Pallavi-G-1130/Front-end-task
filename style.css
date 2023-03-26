@@ -1,46 +1,88 @@
 .header{
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(200, 79, 152);
     text-align: center;
    color: azure;
    font-size: larger;
   padding:3%;
   border: solid black;
 }
+.boxes
+{
+  display:flex;
+    justify-content:space-between;
+    text-align: center!important;
+    font-size:large;
+    color: azure;
+}
 .nav{
-    background-color: rgb(148, 148, 148);
-    text-align: center;
-   color: azure;
+    background-color: rgb(9, 200, 238);
+    text-align: center ;
+    color: azure;
    font-size: larger;
    padding:3%;
    border: solid black;
 }
 .footer{
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(28, 27, 27);
     text-align: center;
    color: azure;
    font-size: larger;
    padding:3%;
-   border: solid black;
+   border: solid red;
+}
+.leftbox {
+  float:left;
+  background:rgb(142, 184, 244);
+  padding-left:2cm;
+  padding-right: 2cm;
+  padding-top:5cm;
+  padding-bottom:5cm;
+  text-align: center;
+ 
+  border: solid black;
+}
+.middlebox{
+  float:center;
+  background:rgb(31, 8, 235);
+  padding-left:11.5cm;
+  padding-right:11.5cm;
+  padding-top:5cm;
+  padding-bottom:5cm;
+  text-align: center;
+  display: grid;
+  border: solid black;
+}
+.rightbox{
+  float:right;
+  background:rgb(142, 184, 244);
+  padding-left:2cm;
+  padding-right: 2cm;
+  padding-top:5cm;
+  padding-bottom:5cm;
+  text-align: center;
+ 
+
+  border: solid black;
 }
 
-  th:nth-child(2) {
-    background: rgb(148, 148, 148);
+  th:nth-child(4) {
+    background: rgb(23, 33, 163);
     width:1200px;
     height:1000px;
-    color: azure;
+    color: rgb(241, 241, 244);
     font-size: larger;
     border: solid black;
   }
   th:nth-child(1) {
-    background: rgb(148, 148, 146);
+    background: rgb(162, 184, 243);
     width:200px;
     height:1000px;
     color: azure;
     font-size: larger;
     border: solid black;
   }
-  th:nth-child(3) {
-    background: rgb(148, 148, 148);
+  th:nth-child(7) {
+    background: rgb(162, 160, 228);
     width:200px;
     color: azure;
     font-size: larger;
